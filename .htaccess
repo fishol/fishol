@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^fishol.com.cn$ 
+RewriteRule ^(.*)$ http://www.fishol.com.cn/$1 [R=301,L]
+</IfModule>
