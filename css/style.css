@@ -43,8 +43,8 @@ body {
 
 #main {
 	position: fixed;
-    text-align: center;
-    top: 100px; 
+        text-align: center;
+        top: 80px; 
 	bottom:0px; 
 	/*padding-bottom: 43vh;    下内边距*/
 }
