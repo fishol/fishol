@@ -42,7 +42,11 @@ body {
 }
 
 #main {
-	padding-bottom: 43vh;    /*下内边距*/
+	position: fixed;
+    text-align: center;
+    top: 100px; 
+	bottom:0px; 
+	/*padding-bottom: 43vh;    下内边距*/
 }
 
 nav {
@@ -110,15 +114,6 @@ footer {
 	bottom:10px;
 	width: 100%;
 	text-align: center;
-	/*
-	
-	width:100%; height: 5px;
-	
-	position: absolute;
-	bottom: 1rem;
-	width: 100%;
-	text-align: center;
-	*/
 }
 
 .group-logo li a i.fa:before {
