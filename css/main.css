@@ -22,42 +22,14 @@
             padding: 20px; /* 设置内边距 */
         }
 
-        /* Logo 样式 */
-        .fishol {
-            text-align: center; /* 文字居中对齐 */
-            margin-bottom: 100px; /* 底部外边距 */
-            margin-top: -240px; /* 顶部外边距 */
-        }
-
-        #logo {
-            height: 150px;
-            width: 150px;
-            background-image: url(../img/logo.png);
-            background-size: cover;             /* 背景全覆盖 */
-            background-position: center;        /* 图片居中定位 */
-            background-repeat: no-repeat;       /* 背景不重复 */
-            transition: all .4s linear;  /* 小图标变大+变色 所用时间 */
-        }
-
-        /* 鼠标悬停时显示的图片 */
-        #logo:hover {
-            height: 150px;
-            width: 150px;
-            background-image: url(../img/logo.gif); /* 鼠标悬停时显示的图片 */
-            background-size: cover;             /* 背景全覆盖 */
-            background-position: center;        /* 图片居中定位 */
-            background-repeat: no-repeat;       /* 背景不重复 */
-            transform: scale(1.2);       /* 按比例放大 */
-        }
-
         /* 域名展示部分样式 */
         .domains {
             display: flex; /* 使用 flex 布局 */
             flex-wrap: wrap; /* 子元素换行 */
             justify-content: center; /* 水平居中对齐 */
             gap: 40px; /* 设置子元素之间的间距 */
-            margin-top: 0; /* 移除默认顶部外边距 */
-			margin-bottom: 30px; /* 底部外边距 */
+            margin-top: 80px; /* 移除默认顶部外边距 */
+			margin-bottom: 250px; /* 底部外边距 */
         }
 
         /* 每个域名块样式 */
