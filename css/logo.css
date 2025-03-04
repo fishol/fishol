@@ -1,0 +1,25 @@
+        
+		
+		
+		
+		/* 彩虹logo */
+        .fishol {
+            width: 200px; /* 图片宽度 */
+			margin-bottom: 0px; 
+            filter: hue-rotate(0deg); /* 初始色相 */
+            transition: filter 0.1s linear; /* 平滑过渡 */
+			animation: rainbow 10s linear infinite; /* 10秒完成一次循环，变色更柔和 */
+        }
+
+
+        /* 彩虹动画，增加橙色和更平滑的渐变 */
+        @keyframes rainbow {
+            0%   { filter: hue-rotate(0deg); }    /* 红色 */
+            12.5% { filter: hue-rotate(30deg); }  /* 橙色 */
+            25%  { filter: hue-rotate(60deg); }   /* 黄色 */
+            37.5% { filter: hue-rotate(120deg); } /* 绿色 */
+            50%  { filter: hue-rotate(180deg); }  /* 青色 */
+            62.5% { filter: hue-rotate(240deg); } /* 蓝色 */
+            75%  { filter: hue-rotate(300deg); }  /* 紫色 */
+            100% { filter: hue-rotate(360deg); }  /* 回到红色 */
+        }

@@ -77,7 +77,7 @@
         @media (max-width: 600px) {
             .domains {
                 flex-direction: column; /* 垂直排列子元素 */
-				margin-bottom: 50px; /* 底部外边距 */
+				margin-bottom: 0px; /* 底部外边距 */
             }
             .fishol {
 				margin-top: 40px; /* 顶部外边距 */
