@@ -77,8 +77,8 @@
         @media (max-width: 600px) {
 
             .fishol {
-				margin-top: 10px; /* 顶部外边距 */
-				margin-bottom: 0px; /* 底部外边距 */
+				margin-top: 20px; /* 顶部外边距 */
+				margin-bottom: -30px; /* 底部外边距 */
             }
 			
 			.domains {
