@@ -75,13 +75,15 @@
 
         /* 响应式设计：手机端将域名块竖排展示，并上移 */
         @media (max-width: 600px) {
-            .domains {
+
+            .fishol {
+				margin-top: 30px; /* 顶部外边距 */
+				margin-bottom: 30px; /* 底部外边距 */
+            }
+			
+			.domains {
                 flex-direction: column; /* 垂直排列子元素 */
 				margin-bottom: 0px; /* 底部外边距 */
-            }
-            .fishol {
-				margin-top: 50px; /* 顶部外边距 */
-				margin-bottom: 40px; /* 底部外边距 */
             }
         }
 
