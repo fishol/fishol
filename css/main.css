@@ -83,7 +83,7 @@
 			
 			.domains {
                 flex-direction: column; /* 垂直排列子元素 */
-				margin-bottom: 0px; /* 底部外边距 */
+				margin-bottom: 20px; /* 底部外边距 */
             }
         }
 
